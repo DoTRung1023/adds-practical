@@ -28,7 +28,7 @@ Move* Human::makeMove(){
     arr[7] = new Zombie;
     cout << "Enter move: ";
     cin >> user_move;
-    for(int i = 0; i<8; i++){
+    for(size_t i = 0; i<8; i++){
         if(user_move == arr[i]->getName()){
             return arr[i];
         }
