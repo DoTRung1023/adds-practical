@@ -17,13 +17,13 @@ int main(){
     Player* human = new Human;
     Player* computer = new Computer;
 
-    Player* result = referee_class.refGame(human, computer);
+    Player* winner = referee_class.refGame(human, computer);
 
-    if(result == nullptr){
+    if(winner == nullptr){
         cout << "It's a Tie" << endl;
     }
     else{
-        cout << "Winner is " << result->getName() << endl;
+        cout << "Winner is " << winner->getName() << endl;
     }
 
     return 0;
