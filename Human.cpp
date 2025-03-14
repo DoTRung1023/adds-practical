@@ -16,7 +16,9 @@ Human::Human(){
     name = "Human";
 }
 
-Human::Human(string name): name(name){}
+Human::Human(string name){
+    this->name = name;
+}
 
 Move* Human::makeMove(){
     string user_move;

@@ -5,8 +5,6 @@
 
 class Computer:public Player
 {
-private:
-    std::string name;
 public:
     Computer();
     Move* makeMove();
