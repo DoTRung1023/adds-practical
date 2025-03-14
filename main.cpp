@@ -1,16 +1,7 @@
 #include "Human.h"
-#include "Computer.h"
-#include "Monkey.h"
-#include "Move.h"
-#include "Ninja.h"
-#include "Paper.h"
-#include "Pirate.h"
 #include "Player.h"
 #include "Referee.h"
-#include "Robot.h"
-#include "Rock.h"
-#include "Scissors.h"
-#include "Zombie.h"
+#include "Computer.h"
 #include <iostream>
 
 using namespace std;
