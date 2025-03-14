@@ -1,5 +1,7 @@
 #include "Robot.h"
 
+using namespace std;
+
 string Robot::getName(){
     return "Robot";
 }

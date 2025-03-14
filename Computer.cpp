@@ -2,6 +2,8 @@
 #include "Move.h"
 #include "Rock.h"
 
+using namespace std;
+
 Computer::Computer(){
     name = "Computer";
 }

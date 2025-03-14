@@ -1,5 +1,7 @@
 #include "Ninja.h"
 
+using namespace std;
+
 string Ninja::getName(){
     return "Ninja";
 }

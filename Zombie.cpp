@@ -1,5 +1,7 @@
 #include "Zombie.h"
 
+using namespace std;
+
 string Zombie::getName(){
     return "Zombie";
 }

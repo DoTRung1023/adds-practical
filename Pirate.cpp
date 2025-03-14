@@ -1,5 +1,7 @@
 #include "Pirate.h"
 
+using namespace std;
+
 string Pirate::getName(){
     return "Pirate";
 }

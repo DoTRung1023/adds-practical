@@ -1,5 +1,7 @@
 #include "Monkey.h"
 
+using namespace std;
+
 string Monkey::getName(){
     return "Monkey";
 }

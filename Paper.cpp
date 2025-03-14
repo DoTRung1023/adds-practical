@@ -1,5 +1,7 @@
 #include "Paper.h"
 
+using namespace std;
+
 string Paper::getName(){
     return "Paper";
 }

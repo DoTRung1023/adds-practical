@@ -8,6 +8,9 @@
 #include "Monkey.h"
 #include "Pirate.h"
 #include "Zombie.h"
+#include <iostream>
+
+using namespace std;
 
 Human::Human(){
     name = "Human";

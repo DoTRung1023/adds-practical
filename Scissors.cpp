@@ -1,5 +1,7 @@
 #include "Scissors.h"
 
+using namespace std;
+
 string Scissors::getName(){
     return "Scissors";
 }

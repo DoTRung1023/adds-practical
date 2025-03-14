@@ -1,5 +1,7 @@
 #include "Rock.h"
 
+using namespace std;
+
 string Rock::getName(){
     return "Rock";
 }

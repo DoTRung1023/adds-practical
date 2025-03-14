@@ -1,15 +1,13 @@
 #ifndef __MOVE_H__
 #define __MOVE_H__
 
-#include <iostream>
-
-using namespace std;
+#include <string>
 
 class Move
 {
 private:
 public:
-    virtual string getName() = 0;
+    virtual std::string getName() = 0;
     virtual bool isCounter(Move* move) = 0;
 };
 

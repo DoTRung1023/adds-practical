@@ -1,18 +1,15 @@
 #ifndef __SCISSORS_H__
 #define __SCISSORS_H__
 
-#include <iostream>
 #include <vector>
 #include "Move.h"
-
-using namespace std;
 
 class Scissors:public Move
 {
 private:
-    vector<string> counter = {"Paper"};
+    std::vector<std::string> counter = {"Paper"};
 public:
-    string getName();
+    std::string getName();
     bool isCounter(Move* move);
 };
 

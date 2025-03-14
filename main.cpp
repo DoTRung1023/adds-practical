@@ -11,6 +11,9 @@
 #include "Rock.h"
 #include "Scissors.h"
 #include "Zombie.h"
+#include <iostream>
+
+using namespace std;
 
 int main(){
     Referee referee_class;
